@@ -1,4 +1,6 @@
 [core]
-    remote = myremote
+    remote = gs-bucket
 ['remote "myremote"']
     url = /tmp/dvcstore
+['remote "gs-bucket"']
+    url = gs://dvc_training
